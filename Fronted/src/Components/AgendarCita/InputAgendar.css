@@ -1,0 +1,22 @@
+.label-AgendarCita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 24px;
+  border: 1px solid #ffe0e2;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #dddddd;
+  margin-bottom: 8px;
+}
+.input-AgendarCita {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  border-style: none;
+}

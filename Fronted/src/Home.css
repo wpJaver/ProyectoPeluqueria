@@ -1,0 +1,86 @@
+:root {
+  --rosado-oscuro: #ec8081;
+  --rosado-claro: #ffe0e2;
+  --naranja: #ce7e4d;
+  --gris-oscuro: #252525;
+  --blanco: #ffffff;
+  --background: #fff5f5;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Quicksand";
+  font-size: 22px;
+  background-color: rgb(255, 255, 255);
+}
+
+.contain-banner {
+  background-color: var(--rosado-claro);
+  display: flex;
+  flex-direction: row;
+  /* width: 1440px;
+  height: 720px; */
+}
+
+.banner-text {
+  /* width: 605px;
+  height: 391px; */
+  margin-top: 186.9px;
+  margin-left: 100px;
+}
+
+.banner-text-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 81px;
+  color: var(--rosado-oscuro);
+}
+.banner-text-body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin-bottom: 24px;
+}
+.banner-img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+/* CONOCE NUESTROS SERVICIOS */
+.conoce-nuestros-servicios {
+  background-color: #fff5f5;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.conoce-nuestros-servicios-titulo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 12px;
+  color: var(--rosado-oscuro);
+}
+.conoce-nuestros-servicios-body {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: var(--gris-oscuro);
+}

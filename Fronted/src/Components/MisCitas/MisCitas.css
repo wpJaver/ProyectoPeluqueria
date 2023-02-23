@@ -1,0 +1,65 @@
+:root {
+  --background-perfil: #ffe0e2;
+  --background-citas: #fff5f5;
+  --Rosado-oscuro: #ec8081;
+}
+
+.contain-MisCitas {
+  display: flex;
+}
+/* --- CONTENEDOR PERFIL --- */
+.contain-perfil {
+  padding: 64px 100px;
+  background-color: var(--background-perfil);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contain-perfil-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--Rosado-oscuro);
+}
+
+.contain-buttons-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contain-perfil-body {
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ec8081;
+}
+
+.contain-perfil-body:hover {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+/* --- CONTENIDO CITAS --- */
+
+.contain-citas {
+  padding: 64px 100px;
+  background-color: var(--background-citas);
+}
+
+.contain-citas-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 16px;
+}

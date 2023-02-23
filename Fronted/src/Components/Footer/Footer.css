@@ -1,0 +1,46 @@
+:root {
+  --backgroud-footer: white;
+}
+
+footer {
+  background-color: var(--backgroud-footer);
+  padding: 64px 100px 64px 100px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+}
+
+.footer-phone {
+  padding: 32px 0px 32px 0px;
+  display: flex;
+  flex-direction: row;
+}
+.footer-phone li {
+  margin-right: 50px;
+  color: #ec8081;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer-phone li:hover {
+  color: #ec8081;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
+
+.footer-img {
+  display: flex;
+  flex-direction: row;
+}
+.footer-img li {
+  margin-right: 24px;
+}

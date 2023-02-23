@@ -1,0 +1,25 @@
+.button {
+  padding: 10px 24px;
+  gap: 10px;
+  color: #ec8081;
+  background: white;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+}
+
+.button:hover {
+  padding: 10px 24px;
+  gap: 10px;
+  background: #ec8081;
+  color: white;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+}

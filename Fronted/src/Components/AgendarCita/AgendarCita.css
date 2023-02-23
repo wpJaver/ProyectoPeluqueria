@@ -1,0 +1,69 @@
+:root {
+  --gris-oscuro: #838383;
+  --rosado-oscuro: #ec8081;
+  --gris-claro: #dddddd;
+  --rosado-claro: #ffe0e2;
+}
+.label-agendarcita {
+  cursor: pointer;
+}
+.modal-agendarCita {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.modal-agendarCita-body {
+  padding: 16px;
+}
+.contain-agendarCita {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain-agendarCita-servicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+.agendarCita-servicio-titulo1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--gris-oscuro);
+}
+
+.agendarCita-servicio-titulo2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: var(--rosado-oscuro);
+}
+
+.agendarCita-servicio-texto {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--gris-oscuro);
+}
+
+.agendarCita-servicio-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.formulario-agendar-cita {
+  margin-top: 24px;
+  width: 100%;
+}
